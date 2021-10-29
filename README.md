@@ -1,8 +1,11 @@
 # Recent Advances in Vision and Language PreTrained Models (VL-PTMs)
-I reorganize the list in chronological order and update some new papers.
+I reorganize the list in chronological order and add some new papers.
 
---------------------
-Maintained by [WANG Yue](https://yuewang-cuhk.github.io/) (wangyue2714@gmail.com). Last update on 2021/06/14.
+The original repo is maintained by [WANG Yue](https://yuewang-cuhk.github.io/) (wangyue2714@gmail.com). Last update on 2021/06/14.
+
+**Update log:**
+* 2021-10-29: add CVPR'21, ICCV'21, ACL'21, ICML'21 papers
+
 
 ## Table of Contents
 
@@ -21,11 +24,11 @@ Maintained by [WANG Yue](https://yuewang-cuhk.github.io/) (wangyue2714@gmail.com
 ## Representation Learning
 ### Arxiv
 
+[SimVLM: Simple Visual Language Model Pretraining with Weak Supervision](https://arxiv.org/pdf/2108.10904.pdf), arXiv 2021/08  
+<font color="red"> `SOTA on VQA` </font>
 
-[SemVLP: Vision-Language Pre-training by Aligning Semantics at Multiple Levels](https://openreview.net/forum?id=Wg2PSpLZiH), Arxiv 2021/05.
+[SemVLP: Vision-Language Pre-training by Aligning Semantics at Multiple Levels](https://openreview.net/forum?id=Wg2PSpLZiH), arXiv 2021/05.
 
-[Unifying Vision-and-Language Tasks via Text Generation](https://arxiv.org/abs/2102.02779), arXiv 2021/02  
-<font color="red"> `Multi-task Learning` </font>
 
 [LAMP: Label Augmented Multimodal Pretraining](https://arxiv.org/pdf/2012.04446.pdf), arXiv 2020/12
 
@@ -40,14 +43,46 @@ Maintained by [WANG Yue](https://yuewang-cuhk.github.io/) (wangyue2714@gmail.com
 
 [InterBERT: Vision-and-Language Interaction for Multi-modal Pretraining](https://arxiv.org/abs/2003.13198), arXiv 2020/03
 
+[Multi-modal Understanding and Generation for Medical Images and Text via Vision-Language Pre-Training](https://arxiv.org/abs/2105.11333), arXiv 2021/05.  
+<font color="red"> `Medical image precessing` </font>
+
+[How Much Can CLIP Benefit Vision-and-Language Tasks?](https://arxiv.org/abs/2107.06383), arXiv 2020/07, [ICLR 2021 submission](https://openreview.net/forum?id=zf_Ll3HZWgy)
 
 ### 2021
-[Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision](https://arxiv.org/abs/2102.05918), arXiv 2021/02, ICML 2021  
+
+[ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision](https://arxiv.org/pdf/2102.03334.pdf), ICML 2021 [[code]](https://github.com/dandelin/ViLT)
+
+[Unifying Vision-and-Language Tasks via Text Generation](https://arxiv.org/abs/2102.02779), ICML 2021  
+<font color="red"> `Multi-task Learning` </font>
+
+[Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision](https://arxiv.org/abs/2102.05918), ICML 2021  
 <font color="red"> `Dataset perspective` </font>
 
 [Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651), NeurIPS 2021 Splotlight, [[code]](https://github.com/salesforce/ALBEF/)
 
-[ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision](https://arxiv.org/pdf/2102.03334.pdf), ICML 2021
+
+[COOKIE: Contrastive Cross-Modal Knowledge Sharing Pre-training
+for Vision-Language Representation](
+https://openaccess.thecvf.com/content/ICCV2021/papers/Wen_COOKIE_Contrastive_Cross-Modal_Knowledge_Sharing_Pre-Training_for_Vision-Language_Representation_ICCV_2021_paper.pdf), ICCV 2021. [[code]](https://github.com/kywen1119/COOKIE)
+
+
+[Airbert: In-Domain Pretraining for Vision-and-Language Navigation](https://arxiv.org/abs/2108.09105), ICCV 2021. [[code]](https://github.com/airbert-vln/airbert)
+
+
+[Seeing Out of the Box: End-to-End Pre-Training for Vision-Language Representation Learning](https://arxiv.org/abs/2104.03135), CVPR 2021
+
+[UC2: Universal Cross-Lingual Cross-Modal Vision-and-Language Pre-Training](https://arxiv.org/abs/2104.00332), CVPR 2021.
+
+[Conceptual 12M: Pushing Web-Scale Image-Text Pre-Training To Recognize Long-Tail Visual Concepts](https://arxiv.org/abs/2102.08981), CVPR 2021.  
+<font color="red"> `Dataset` </font>
+
+[Multimodal Contrastive Training for Visual Representation Learning](https://arxiv.org/abs/2104.12836), CVPR 2021.
+
+[Kaleido-BERT: Vision-Language Pre-Training on Fashion Domain](https://arxiv.org/abs/2103.16110), CVPR 2021.
+
+[Causal Attention for Vision-Language Tasks](https://arxiv.org/abs/2103.03493), CVPR 2021, [[code]](https://github.com/yangxuntu/catt)
+
+[M3P: Learning Universal Representations via Multitask Multilingual Multimodal Pre-Training](https://arxiv.org/abs/2006.02635) [[code]](https://github.com/microsoft/M3P)
 
 [VinVL: Revisiting Visual Representations in Vision-Language Models](https://arxiv.org/abs/2101.00529), CVPR 2021. \[[detection code](https://github.com/microsoft/Oscar)\]\[[pretraining code](https://github.com/microsoft/Oscar)\]
 
@@ -115,6 +150,9 @@ Learning](https://aclanthology.org/2021.acl-long.42.pdf), ACL 2021.
 
 ### 2021
 
+[A Recurrent Vision-and-Language BERT for Navigation](https://arxiv.org/abs/2011.13922), CVPR 2021.  
+<font color="red"> `Vision-language navigation` </font>
+
 [VisualMRC: Machine Reading Comprehension on Document Images](https://arxiv.org/abs/2101.11272), AAAI 2021, (**LayoutT5, LayoutBART**)  
 <font color="red"> `Machine Reading Comprehension` </font>
 
@@ -180,6 +218,10 @@ Learning](https://aclanthology.org/2021.acl-long.42.pdf), ACL 2021.
 [Learning Video Representations Using Contrastive Bidirectional Transformers](https://arxiv.org/abs/1906.05743), arXiv 2019/06, [ICLR 2020 submission](https://openreview.net/forum?id=rJgRMkrtDr) (**CBT**)
 
 ### 2021
+[VLM: Task-agnostic Video-Language Model Pre-training for Video Understanding](https://arxiv.org/abs/2105.09996), ACL Findings 2021.
+
+
+
 [Less is More: CLIPBERT for Video-and-Language Learning via Sparse Sampling](https://arxiv.org/pdf/2102.06183.pdf), CVPR 2021
 
 [Parameter Efficient Multimodal Transformers for Video Representation Learning](https://arxiv.org/pdf/2012.04124.pdf), arXiv 2020/12, ICLR 2021.
