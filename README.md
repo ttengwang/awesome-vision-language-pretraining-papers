@@ -24,11 +24,13 @@ Maintained by [WANG Yue](https://yuewang-cuhk.github.io/) (wangyue2714@gmail.com
 
 [SemVLP: Vision-Language Pre-training by Aligning Semantics at Multiple Levels](https://openreview.net/forum?id=Wg2PSpLZiH), Arxiv 2021/05.
 
-**Multi-task Learning**, [Unifying Vision-and-Language Tasks via Text Generation](https://arxiv.org/abs/2102.02779), arXiv 2021/02
+[Unifying Vision-and-Language Tasks via Text Generation](https://arxiv.org/abs/2102.02779), arXiv 2021/02  
+<font color="red"> `Multi-task Learning` </font>
 
 [LAMP: Label Augmented Multimodal Pretraining](https://arxiv.org/pdf/2012.04446.pdf), arXiv 2020/12
 
-**In-depth Analysis**, [A Closer Look at the Robustness of Vision-and-Language Pre-trained Models](https://arxiv.org/abs/2012.08673), arXiv 2020/12
+[A Closer Look at the Robustness of Vision-and-Language Pre-trained Models](https://arxiv.org/abs/2012.08673), arXiv 2020/12  
+<font color="red"> `In-depth Analysis` </font>
 
 [Multimodal Pretraining Unmasked: Unifying the Vision and Language BERTs](https://arxiv.org/pdf/2011.15124.pdf), arXiv 2020/11
 
@@ -40,7 +42,8 @@ Maintained by [WANG Yue](https://yuewang-cuhk.github.io/) (wangyue2714@gmail.com
 
 
 ### 2021
-**Dataset perspective**, [Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision](https://arxiv.org/abs/2102.05918), arXiv 2021/02, ICML 2021.
+[Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision](https://arxiv.org/abs/2102.05918), arXiv 2021/02, ICML 2021  
+<font color="red"> `Dataset perspective` </font>
 
 [Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651), NeurIPS 2021 Splotlight, [[code]](https://github.com/salesforce/ALBEF/)
 
